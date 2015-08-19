@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fullpath:</strong>
+  <%= @photo.fullpath %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @photo.format %>
+</p>
+
+<p>
+  <strong>Caption:</strong>
+  <%= @photo.caption %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @photo.size %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= @photo.album_id %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
